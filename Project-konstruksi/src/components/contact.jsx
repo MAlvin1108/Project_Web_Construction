@@ -33,7 +33,7 @@ export const Contact = () => {
                 subject: '',
                 message: ''
             });
-            setIsSubmitting(flase);
+            setIsSubmitting(false);
         },1000);
      };
 

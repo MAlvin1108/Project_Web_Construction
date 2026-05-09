@@ -2,7 +2,7 @@ import React from 'react';
 import {ChevronDown} from 'lucide-react';
 import {heroData} from '../mock'
 
-export const hero = () => {
+export const Hero = () => {
     const scrollToAbout = () => {
         const aboutSection = document.querySelector('#about');
         if(aboutSection){

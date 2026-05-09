@@ -1,7 +1,7 @@
 import React from 'react';
 import { aboutData } from '../mock';
 
-export const about = () => {
+export const About = () => {
     return (
         <section id="about" className="py-32 bg-white">
       <div className="container mx-auto px-6">
